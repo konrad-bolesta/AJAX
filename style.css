@@ -1,0 +1,45 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Work+Sans);
+
+body {
+    background: #55ACEE;
+    color: white;
+    font-family: "Work Sans";
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box {
+    margin: 60px;
+}
+
+.buttons {
+    width: 350px;
+    height: 35px;
+    border: 1px solid white;
+    margin: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.trigger {
+    background: #55ACEE;
+    cursor: pointer;
+}
+
+.tweet {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
